@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+  		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+		<title>Sankalp T. | Front End Developer</title>
+        <!-- Carousel -->
+
+		<!-- fonticons -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!-- fonticons -->
+		<!-- google fonts -->
+
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+
+		<!-- google fonts -->
+
+
+		<!-- stylesheet -->
+		<link href="css/stylesheet.css" rel="stylesheet">
+		<!-- stylesheet -->
+
+	</head>
+
+	<body>
+
+		<header>
+    
+			<div class="nav-icon"><i class="fas fa-bars"></i></div>
+
+			<div class="mobile-navbar">
+
+
+
+				<ul class="menu closed">
+				<li><a href="#" class="close"><i class="fas fa-times"></i></a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#photos">Photography</a></li>
+				<li><a href="#contact-me">Contact Me</a></li>
+
+			</ul>
+
+			</div>
+			<nav id="navbar" class="nav">
+				<a href="#">About</a>
+				<a href="#projects">Projects</a>
+				<a href="#photos">Photography</a>
+				<a href="#contact-me">Contact Me</a>
+
+			</nav>
+		</header>
+
+		<div class="container" id="one">
+
+			<section class="welcome-sec" id="welcome-section">
+
+				<div class="welcome-part">
+
+					<div class="photo-div"><img src="images/profile-image.jpg" alt="profile-picture" class="photo"/></div>
+					<h1>Hi/Namaste, I'm <span>Sankalp Trivedi.</span></h1>
+					<p>I'm a Computer Science Undergrad...</p>
+
+				</div>
+
+				<div class="about not-visible" id="about-me">
+
+					<h2>About me</h2>
+					<p> A self-motivated and hard working computer science Engineer with a great passion for programming , coding, photography, travelling and sports. I am a creative front end developer who like making beautiful and smart things through coding. </p>
+
+					<div class="social">
+
+						<a class="profile-link" href="https://github.com/jarvis149" target="_blank"><i class="fab fa-github"></i></a>
+						<a class="profile-link" href="https://twitter.com/jarvisankalp" target="_blank"><i class="fab fa-twitter"></i></a>
+						<a class="profile-link" href="https://www.linkedin.com/in/sankalp-trivedi-00ab79179/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+					</div>
+
+				</div>
+				<div class="contain">
+					<div class="circle left colored"></div>
+					<div class="circle right"></div>
+				</div>
+
+			</section>
+
+
+			<section id="projects" class="projects-sec">
+
+				<div  class="sec-title"><h2>PROJECTS</h2></div>
+
+				<div class="project-container">
+
+				<div class="proj-contain project-1">
+					<img class="proj-screenshot" src="images/friends-club-preview.png" alt="friends-club-desktop-preview"/>
+
+					<div class="project-title">
+						<h6>Friends Club</h6>
+						<p>This is a Advanced java application created by me for my summer project.</p>
+						<div class="links">
+						<ul>
+							<li><i class="fab fa-css3-alt"></i></li>
+							<li><i class="fab fa-html5"></i></li>
+							<li><i class="fab fa-js-square"></i></li>
+							<li><i class="fab fa-java"></i></li>
+
+						</ul>
+						<a class="website-link" href="" target="_blank">Go To Website</a>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="proj-contain project-2">
+					<img class="proj-screenshot" src="images/image1.jpg" alt="Coming Soon"/>
+
+					<div class="project-title">
+						<h6>Under Development</h6>
+						<p>A new project will be declared soon.</p>
+						<br/>
+						<div class="links">
+							<ul>
+							<li><i class="fab fa-css3-alt"></i></li>
+							<li><i class="fab fa-html5"></i></li>
+							<li><i class="fab fa-js-square"></i></li>
+							<li><i class="fab fa-java"></i></li>
+
+						</ul>
+						<a class="website-link" href="" target="_blank">Coming Soon</a>
+					</div>
+				</div>
+					</div>
+
+				<div class="proj-contain project-3">
+					<img class="proj-screenshot" src="images/image1.jpg" alt="Coming soon"/>
+
+					<div class="project-title">
+						<h6>Coming Soon</h6>
+						<p>New Project will soon be announced.</p>
+					<div class="links">
+						<ul>
+							<li><i class="fab fa-css3-alt"></i></li>
+							<li><i class="fab fa-html5"></i></li>
+
+
+						</ul>
+
+						<a class="website-link" href="" target="_blank">Coming Soon</a>
+
+						</div>
+					</div>
+				</div>
+					</div>
+				<a class="more show-link">show More<i class="fas fa-chevron-circle-down"></i></a>
+				<a class="less show-link toggle">show less<i class="fas fa-chevron-circle-up"></i></a>
+
+		</section>
+		<hr/>
+		<section class="photos-sec">
+
+				<div  class="sec-title" id="photos"><h2>Photography</h2></div>
+				<p>This quote justifies my feeling for photography- “Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything".
+				Here are some of the best shots that i have clicked:</p>
+				<div class="photo-cont" id="photo1">
+				<div class="row">
+  <div class="column">
+    <img src="images/armyplane.jpg" alt="Beautiful plane in the sky" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/bird.jpg" alt="Beautiful bird" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/flower.jpg" alt="Beautiful flower" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/intothesky.jpg" alt="humongousclouds" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close1 cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/armyplane.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/bird.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/flower.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/intothesky.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="images/armyplane.jpg" style="width:100%" onclick="currentSlide(1)" alt="shadowy view of c-130 j super hercules">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/bird.jpg" style="width:100%" onclick="currentSlide(2)" alt="Bird wandering the skies">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/flower.jpg" style="width:100%" onclick="currentSlide(3)" alt="Beautiful blooming in the spring">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/intothesky.jpg" style="width:100%" onclick="currentSlide(4)" alt="The clouds">
+    </div>
+  </div>
+</div>
+<p>More Photos Will be showcased as soon as clicked....</p>
+</div>
+<a class="more1 show-link1">show More<i class="fas fa-chevron-circle-down"></i></a>
+				<a class="less1 show-link1 toggle1">show less<i class="fas fa-chevron-circle-up"></i></a>
+			 </section>
+
+	</div>
+
+	<section id="contact-me" class="contact">
+		<div class="contact-div">
+
+			<h2>Contact Me</h2>
+
+			<p>Have any project or idea in mind? <span>Say Hello at:</span></p>
+
+			<p class="email">sankalp1402@gmail.com</p>
+
+		</div>
+
+			<div class="social">
+
+				<a class="profile-link" href="https://github.com/jarvis149" target="_blank"><i class="fab fa-github"></i></a>
+				<a class="profile-link" href="https://codepen.io/" target="_blank"><i class="fab fa-codepen"></i></a>
+				<a class="profile-link" href="https://twitter.com/jarvisankalp" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a class="profile-link" href="https://www.linkedin.com/in/sankalp-trivedi-00ab79179/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+			</div>
+		</section>
+
+		<footer id="footer">Copyright&copy;2020.Sankalp Trivedi. All Rights Reserved.</footer>
+<!--		Jquery-->
+		<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+	<!--		Jquery-->
+		<!--js script		-->
+		<script src="JavaScript/script.js"></script>
+		<!--js script		-->
+	</body>
+
+</html>
